@@ -81,7 +81,7 @@ describe("JSX Practice exercises", () => {
       const price = 12;
 
       const ProductPrice = () => {
-        return <p>Price {price}</p>;
+        return <p>Price: {price}</p>;
       };
 
       render(<ProductPrice />);
