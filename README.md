@@ -21,3 +21,4 @@ Tips:
 
 - replace `test("bla")` with `test.only("bla")` to run only that test
 - move the console section with the test results to the right side of the code editor, so it's side by side with the code
+- for an even better test experience in VSCode, install the [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) extension
