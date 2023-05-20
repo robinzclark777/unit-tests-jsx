@@ -9,7 +9,7 @@ describe("JSX Practice exercises", () => {
      *
      * Read the value from the `name` variable
      */
-    test.only("hello john doe", () => {
+    test("hello john doe", () => {
       const name = "John Doe";
 
       const HelloWorld = () => null;
