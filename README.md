@@ -1,5 +1,23 @@
-Basic React boilerplate.
+# Practice React by fixing tests - Check your JSX knowledge!
 
-Useful when you just want to start coding some React component, but don't need the entire setup that CRA comes with.
+Working with JSX involves:
 
-Follows steps outlined in [Creating a React app with Webpack](https://jsramblings.com/creating-a-react-app-with-webpack/).
+- displaying info from variables - strings, objects
+- using Javascript expressions inside JSX
+- converting HTML to JSX
+- knowing the JSX rules - e.g. only one root element etc.
+
+Where do you think you stand?
+Check your knowledge by fixing these failing unit tests!
+
+## Getting started
+
+1. Run `npm install`
+2. Open the test file: `src/__tests__/jsx-exercises.test.jsx`
+3. Run the tests `npm run test`
+4. Fix them!
+
+Tips:
+
+- replace `test("bla")` with `test.only("bla")` to run only that test
+- move the console section with the test results to the right side of the code editor, so it's side by side with the code
